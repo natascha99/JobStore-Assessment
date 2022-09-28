@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JobStore.com Home Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"> -->
+        
+    </head>
+    <body>
+        <!--HEADER-->
+        <section class="header">
+            <div class="menubar">
+                <img src="images/menubar.png" onclick="showMenu()">
+            </div>
+            <nav>
+                <a href="HomePage.html"><img src="images/logo.png"></a>
+                    <!--Menu Left-->
+                    <div class="nav-links" id="navLinks">
+                        <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+                        <img src="images/close.png" onclick="hideMenu()"><br><br>
+                        <ul>
+                            <li><a href="">SEARCH JOBS</a></li>
+                            <li><a href="">COMPANIES</a></li>
+                            <li><a href="">RESOURCE</a></li>
+                            <li><a href="">BLOG</a></li>
+                        </ul>
+                        <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+                    </div>
+                    <!--End Menu Left-->
+                    <!--Menu Right-->
+                    <div class="nav-right" id="navLinks">
+                        <ul>
+                            <li>
+                                <select>
+                                    <option>MY</option>
+                                    <option>AUS</option>
+                                    <option>SG</option>
+                                </select>
+                            </li>
+                            <li><a href="">SIGN IN</a></li>
+                            <li><a href="">SIGN UP</a></li>
+                            <a href="" class="emp-btn">EMPLOYERS</a>
+                        </ul>
+                    </div>
+                    <!--End Menu Right-->
+            </nav>
+            <div class="box-right">
+                <h2>MALAYSIA'S NO. 1 JOB SITE</h2>
+                <h5>More than 12,735 Jobs available across Malaysia, worldwide</h5><br>
+                <div class="bttn-atas">
+                    <a href="" class="hero-btn">FREE SIGN UP </a>&nbsp;&nbsp;<a href="" class="search-btn">SEARCH JOBS</a><br><br>
+                </div>
+                <div class="kotak">
+                    <img src="images/confident.jpeg">
+                    <div class="dalam">
+                        <div class="dalamkotak">
+                            <div class="dalamkotakcell">
+                                <b>Trending Article</b><br>
+                                10 ways to become more confident person.<br><br>
+                                <a>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-left">
+                <img src="images/mobApp.png"><br><br>
+                <div class="box-col">
+                    <p><b>Featured Employers</b></p>
+                    <div class="center">
+                        <img src="images/aeon-logo.png"> &nbsp;&nbsp;
+                        <img src="images/job-logo.png"> &nbsp;&nbsp;
+                        <img src="images/alliance-logo.png">
+                    </div>
+                    <p><b><a href=""> More</a></b></p>
+                </div>
+            </div>
+        </section>
+        <!--END HEADER-->
+        <!--FEATURED EMPLOYERS-->
+        <section class="featured-emp">
+            <h1>FEATURED EMPLOYERS</h1>
+            <!-- <p>Check out the employers who's hiring now!</p> -->
+            <a1 href="">View More</a1><br><br>
+            <div class="row">
+                <div class="featured-col">
+                    <img src="images/aeon.jpg">
+                    <h4>AEON Credit Service(M) Berhad</h4>
+                    <p>No. 8, Level 18, UOA Corporate Tower, Avenue 10, The Vertical Bangsar South City, Jalan Kerinchi, 59200 Kuala Lumpur</p>
+                    <div class="company">
+                        <img src="images/aeon-logo.png">
+                        <a href="" class="apply-btn">Apply Jobs</a>
+                    </div>
+                </div>
+                <div class="featured-col">
+                    <img src="images/AllianceSteel.png">
+                    <h4>Alliance Steel (M) Sdn Bhd</h4>
+                    <p>No. 8, Level 18, UOA Corporate Tower, Avenue 10, The Vertical Bangsar South City, Jalan Kerinchi, 59200 Kuala Lumpur</p>
+                    <div class="company">
+                        <img src="images/alliance-logo.png">
+                        <a href="" class="apply-btn">Apply Jobs</a>
+                    </div>
+                </div>
+                <div class="featured-col">
+                    <img src="images/aeon.jpg">
+                    <h4>AEON Credit Service(M) Berhad</h4>
+                    <p>No. 8, Level 18, UOA Corporate Tower, Avenue 10, The Vertical Bangsar South City, Jalan Kerinchi, 59200 Kuala Lumpur</p>
+                    <div class="company">
+                        <img src="images/aeon-logo.png">
+                        <a href="" class="apply-btn">Apply Jobs</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END FEATURED EMPLOYERS-->
+        <!--TRENDING JOBS-->
+        <section class="trending-jobs">
+            <h1>TRENDING JOBS IN MALAYSIA</h1>
+            <a1 href="">View More</a1><br><br>
+            <div class="row3">
+                <div class="row2">
+                    <div class="trending-col">
+                        <h5>Key Account Executive - Sale</h5>
+                            <p>Meru, Klang</p> 
+                            <a href="">Details</a>
+                    </div>
+                    <div class="trending-col">
+                        <h5>Costing Executive</h5>
+                        <p>Meru, Klang</p>
+                        <a href="">Details</a>
+                    </div>
+                    <div class="trending-col">
+                        <h5>Architecture Supervisor</h5>
+                        <p>Kuala Lumpur</p>
+                        <a href="">Details</a>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="trending-col">
+                        <h5>Key Account Executive - Sale</h5>
+                        <div class="block">
+                            <p>Meru, Klang</p> 
+                            <a href="">Details</a>
+                        </div>
+                    </div>
+                    <div class="trending-col">
+                        <h5>Costing Executive</h5>
+                        <p>Meru, Klang</p>
+                        <a href="">Details</a>
+                    </div>
+                    <div class="trending-col">
+                        <h5>Architecture Supervisor</h5>
+                        <p>Kuala Lumpur</p>
+                        <a href="">Details</a>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="trending-col">
+                        <h5>Key Account Executive - Sale</h5>
+                        <div class="block">
+                            <p>Meru, Klang</p> 
+                            <a href="">Details</a>
+                        </div>
+                    </div>
+                    <div class="trending-col">
+                        <h5>Costing Executive</h5>
+                        <p>Meru, Klang</p>
+                        <a href="">Details</a>
+                    </div>
+                    <div class="trending-col">
+                        <h5>Architecture Supervisor</h5>
+                        <p>Kuala Lumpur</p>
+                        <a href="">Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END TRENDING JOBS-->
+        <!--SEARCH JOBS-->
+        <section class="search">
+            <h1>SEARCH BY POPULAR CATEGORIES</h1>
+            <form class="search">
+                <input type="search" placeholder="Search by keyword">
+                <div class="searchBawah">
+                    Popular Categories
+                </div>
+                <div class="category">
+                    <a href="">
+                        <div class="searchCat">
+                            Sales and Marketing
+                        </div>
+                    </a> &nbsp;
+                    <a href="">
+                        <div class="searchCat">
+                            Information Technology
+                        </div>
+                    </a>&nbsp;
+                    <a href="">
+                        <div class="searchCat">
+                            Accounting/Auditing
+                        </div>
+                    </a>&nbsp;
+                    <a href="">
+                        <div class="searchCat">
+                            Engineering
+                        </div>
+                    </a>&nbsp;
+                    <a href="">
+                        <div class="searchCat">
+                            Administrative
+                        </div>
+                    </a>&nbsp;
+                    <a href="">
+                        <div class="searchCat">
+                            Customer Service
+                        </div>
+                    </a>&nbsp;
+                    <a href="">
+                        <div class="searchCat">
+                            Human Resource
+                        </div>
+                    </a>&nbsp;
+                    <a href="">
+                        <div class="searchCat">
+                            Financing/Banking
+                        </div>
+                    </a>&nbsp;
+                    <a href="">
+                        <div class="searchCat">
+                            More
+                        </div>
+                    </a>
+                </div>
+                <!-- <div class="rowright">
+                    <p><a href="">Sales and Marketing </a></p>
+                    <p><a href="">Information Technology </a></p>
+                    <p><a href="">Accounting/Auditing </a></p>
+                    <p><a href="">Engineering </a></p>
+                    <p><a href="">Administrative </a></p>
+                    <p><a href="">Customer Service </a></p>
+                    <p><a href="">Human Resource </a></p>
+                    <p><a href="">Financing/Banking </a></p>
+                    <p><a href="">More </a></p>
+                </div> -->
+                <div class="row">
+                    
+                </div>
+            </form>
+            
+        </section>
+        <!--END SEARCH JOBS-->
+        <!--ABOUT-->
+        <section class="about">
+            <img src="images/about-logo.png" class="center"></img>
+            <div class="row">
+                <div class="about-col">
+                    <h4>COMPANY</h4><br>
+                    <a href="">About Us</a><br>
+                    <a href="">Contact Support</a><br>
+                    <a href="">Careers @ JobStore</a><br>
+                    <a href="">Blog</a><br>
+                    <a href="">Partner Sites</a><br>
+                    <a href="">Fullfillment Policy</a>
+                </div>
+                <div class="about-col">
+                    <h4>JOBSEEKER</h4><br>
+                    <a href="">Sing Up</a><br>
+                    <a href="">Sign In</a><br>
+                    <a href="">Check Application</a><br>
+                    <a href="">Jobseekers FAQs</a><br>
+                    <a href="">Browes Job</a><br>
+                    <a href="">Browes by Industry</a>
+                </div>
+                <div class="about-col">
+                    <h4>EMPLOYER</h4><br>
+                    <a href="">Create Account</a><br>
+                    <a href="">Post Jobs</a><br>
+                    <a href="">Products & Prices</a><br>
+                    <a href="">Customer Support</a><br>
+                    <a href="">Contact Sales</a><br>
+                    <a href="">Facebook Tabs</a><br><br>
+                </div>
+                <div class="about-col2">
+                    <h4>CONNECT WITH US</h4><br>
+                    <a href="">Facebook</a><br>
+                    <a href="">Twitter</a><br>
+                    <a href="">LinkedIn</a><br>
+                    <a href="">Instagram</a><br>
+                    <a href="">Call us at +603 2716 5199</a><br>
+                    <a href="">Send us a Message</a>
+                </div>
+            </div><br>
+            <!-- Page Footer -->
+            <div class="footer">
+                <p>&copy;2022 JobStore.com <a href="">* Term of Service</a> <a href="">* Privacy Policy</a> <a href="">* All Right Reserved</a></p><br>
+                <hr class="center"><br>
+                <p2 class="center">
+                    Jobstore is the biggest job distribution and job search platform with a broad presence in Malaysia, Australia, Hong Kong, Singapore, the Philippines, and Indonesia.<br><br>
+                    It is currently one of the fastest growing job portals in the Asia Pacific region — recognized with multiple awards such as Top 100 Private Technology Company, Top 10 Consumer 
+                    Cloud Application, etc. Having more than 20,000 top firms and a growing number of career opportunities on board, Jobstore connects the right people with the right jobs, serving 
+                    tens of thousands of employers of all sizes and industries.<br><br>
+                    Furthermore, our social networking search technology is capable of tracking users' online behavior, thus ensuring that jobseekers are presented with the most recent and relevant 
+                    jobs from their search.<br><br>
+                    Jobstore has also streamlined the hiring process radically, making it much more organized and efficient. With just one submission, employers and recruiters are able to advertise 
+                    jobs on multiple job sites, classified ads and social network sites. We also integrate a state-of-the-art application tracking system that will help your recruitment team work 
+                    more efficiently.<br><br>
+                    Trusted by 8 million users, we refuse to settle and will continue to explore new frontiers across all emerging online channels. We strive to gain new insights and understanding 
+                    of the job market so that we will help not only employers to fill their vacancies, but also help jobseekers to land the jobs that match their true potential.
+                    <br><br>
+                    We believe everyone can, and should love his or her job. And Jobstore is where you'll find your calling.
+                </p2>
+            </div>
+            <!-- End of Page Footer -->
+        </section>
+        <!--END ABOUT-->
+        <!--START JAVASCRIPT-->
+        <!--Javascript for toggle menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <!--END JAVASCRIPT-->
+    </body>
+</html>
